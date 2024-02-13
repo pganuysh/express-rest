@@ -1,0 +1,29 @@
+{
+  "name": "restservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "restservice.js",
+  "scripts": {
+    "dev": "nodemon .\\build\\bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.17",
+    "@types/uuid": "^9.0.8",
+    "nodemon": "^3.0.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.1"
+  }
+}
